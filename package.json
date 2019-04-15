@@ -1,0 +1,46 @@
+{
+  "name": "google-drive-nodejs-quickstart",
+  "version": "1.0.0",
+  "description": "A simple Node.js command-line application that makes requests to the Google Drive API.",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "curl-request": "^1.1.1",
+    "del": "^3.0.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "firebase-admin": "^6.0.0",
+    "glup": "^1.0.14",
+    "googleapis": "^27.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "lodash": "^4.17.11",
+    "next": "^7.0.1",
+    "next-routes": "^1.4.2",
+    "promise": "^8.0.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-axios": "^2.0.1",
+    "react-dom": "^16.5.2",
+    "request": "^2.88.0",
+    "semantic-ui-react": "^0.82.5"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "scripts": {
+    "dev": "next start -p 3002",
+    "build": "babel ./helpers/*.js -d dist",
+    "build-ui": "next build",
+    "start": "gulp serve"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "json-loader": "^0.5.7"
+  }
+}
