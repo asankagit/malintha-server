@@ -13,7 +13,7 @@
 yarn.lock
 
 #config
-#/config
+/config
 .next/
 credentials.json
 
