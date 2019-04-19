@@ -70,7 +70,8 @@ app.get('/btn', function (req, res) {
     { title: 'new response',url:'https://grantha.lk/media/catalog/product/cache/bfa4f59b59693a18ca4208a6e02422cd/d/o/dosthara_haramitta.jpg',description:'' }];
   res.send(str)
 })
+const PORT = process.env.PORT || 3000;
 
-app.listen(3001, () => {
-    console.info(`server started on port 3001`); // eslint-disable-line no-console
+app.listen(PORT, () => {
+    console.info(`server started on port ${PORT}`); // eslint-disable-line no-console
   });
