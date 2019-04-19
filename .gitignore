@@ -15,7 +15,7 @@ yarn.lock
 #config
 /config
 .next/
-credentials.json
+#credentials.json
 
 .DS_Store
 .env.local
