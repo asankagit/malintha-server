@@ -33,7 +33,9 @@
     "dev": "next start -p 3002",
     "build": "babel ./helpers/*.js -d dist",
     "build-ui": "next build",
-    "start": "gulp serve"
+    "glup": "gulp serve",
+    "start": "node index.js"
+
   },
   "license": "Apache-2.0",
   "devDependencies": {
